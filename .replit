@@ -1,0 +1,8 @@
+run = "node index.js"
+language = "nodejs"
+entrypoint = "index.js"
+
+[deployment]
+run = ["node", "index.js"]
+deploymentTarget = "autoscale"
+ignorePorts = false
